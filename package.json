@@ -1,0 +1,134 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "rets-client@^4.6.1",
+        "scope": null,
+        "escapedName": "rets-client",
+        "name": "rets-client",
+        "rawSpec": "^4.6.1",
+        "spec": ">=4.6.1 <5.0.0",
+        "type": "range"
+      },
+      "C:\\Users\\Guldan\\Documents\\GitHub\\Select-Real-Estate"
+    ]
+  ],
+  "_from": "rets-client@>=4.6.1 <5.0.0",
+  "_id": "rets-client@4.6.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/rets-client",
+  "_nodeVersion": "4.3.1",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/rets-client-4.6.1.tgz_1470281344475_0.3010219915304333"
+  },
+  "_npmUser": {
+    "name": "zacronos",
+    "email": "joe@ibershoff.com"
+  },
+  "_npmVersion": "2.14.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "rets-client@^4.6.1",
+    "scope": null,
+    "escapedName": "rets-client",
+    "name": "rets-client",
+    "rawSpec": "^4.6.1",
+    "spec": ">=4.6.1 <5.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/rets-client/-/rets-client-4.6.1.tgz",
+  "_shasum": "e9ad94338870e9d2b264da1424fefe679adb683a",
+  "_shrinkwrap": null,
+  "_spec": "rets-client@^4.6.1",
+  "_where": "C:\\Users\\Guldan\\Documents\\GitHub\\Select-Real-Estate",
+  "author": {
+    "name": "Steve Bruno",
+    "email": "stevenrbruno@icloud.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sbruno81/rets-client/issues"
+  },
+  "contributors": [
+    {
+      "name": "Steve Bruno",
+      "email": "stevenrbruno@icloud.com"
+    },
+    {
+      "name": "Joe Ibershoff",
+      "email": "joe@realtymaps.com"
+    }
+  ],
+  "dependencies": {
+    "base64-stream": "^0.1.3",
+    "bluebird": "^2.9.25",
+    "bufferstream": "^0.6.2",
+    "crypto": "0.0.3",
+    "debug": "^2.2.0",
+    "formidable": "~1.0.15",
+    "node-expat": "^2.3.10",
+    "request": "^2.55.0",
+    "stream-buffers": "~0.2.5",
+    "through2": "^2.0.0",
+    "tough-cookie": "^0.13.0"
+  },
+  "description": "A RETS client (Real Estate Transaction Standard).",
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "request-debug": "^0.2.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "e9ad94338870e9d2b264da1424fefe679adb683a",
+    "tarball": "https://registry.npmjs.org/rets-client/-/rets-client-4.6.1.tgz"
+  },
+  "files": [
+    "dist",
+    "index.js"
+  ],
+  "gitHead": "e29802117e509448b4dd7113fcbb0e649f11e612",
+  "homepage": "https://github.com/sbruno81/rets-client#readme",
+  "keywords": [
+    "rets",
+    "Real Estate Transaction Standard",
+    "client",
+    "real",
+    "estate",
+    "transaction",
+    "standard",
+    "promise",
+    "mls",
+    "stream",
+    "streams",
+    "streaming"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "sbruno81",
+      "email": "stevenrbruno@icloud.com"
+    },
+    {
+      "name": "zacronos",
+      "email": "joe@ibershoff.com"
+    }
+  ],
+  "name": "rets-client",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbruno81/rets-client.git"
+  },
+  "scripts": {
+    "dev": "coffee --watch --output dist lib/",
+    "prepublish": "coffee --compile --output dist/ lib/"
+  },
+  "version": "4.6.1"
+}
